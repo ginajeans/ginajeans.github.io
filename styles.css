@@ -28,24 +28,9 @@ p {
 	font-size: 35px;
 	letter-spacing: 3px;
 	line-height: 50px;
-	margin-bottom: 5%;
+	margin-bottom: 8%;
 }
-@media (max-width: 570px) {
-	p {
-		font-size: 29px;
-		letter-spacing: 0.7px;
-		line-height: 40px;
-	}
-	span {
-		font-size: 35px;
-	}
-	.peach {
-		width: 85%;
-		display: block;
-		margin: 0 auto;
-		padding-top: 30%;
-	}
-}
+
 span {
 	color: #e9490f;
 	padding: 0;
@@ -62,4 +47,24 @@ span {
 }
 img {
 	width: 100%;
+}
+@media screen and (max-width: 570px) {
+	p {
+		font-size: 30px;
+		letter-spacing: 1.5px;
+		line-height: 40px;
+	}
+	span {
+		font-size: 35px;
+	}
+	.peach {
+		width: 85%;
+		display: block;
+		margin: 0 auto;
+		padding-top: 20%;
+	}
+	.peachy {
+		width: 40%;
+		height: auto;
+	}
 }
