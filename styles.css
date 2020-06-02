@@ -2,13 +2,13 @@ html,
 body {
 	padding: 0;
 	margin: 0;
+	background-color: black;
 }
-.imageContent {
+/* .imageContent {
 	display: grid;
 	grid-template-columns: 2fr 1fr;
-}
+} */
 .cute {
-	background-color: black;
 	width: 100vw;
 	height: 100vh;
 	display: block;
@@ -53,6 +53,7 @@ img {
 		font-size: 30px;
 		letter-spacing: 1.5px;
 		line-height: 40px;
+		margin-bottom: 14%;
 	}
 	span {
 		font-size: 35px;
@@ -64,7 +65,40 @@ img {
 		padding-top: 20%;
 	}
 	.peachy {
-		width: 40%;
+		width: 50%;
 		height: auto;
 	}
+}
+
+.row {
+	display: flex;
+	flex-wrap: wrap;
+	padding: 0 4px;
+	justify-content: center;
+}
+
+/* Create four equal columns that sits next to each other */
+.column {
+	flex: 25%;
+	max-width: 40%;
+	padding: 0 4px;
+}
+
+.column img {
+	margin-top: 8px;
+	vertical-align: middle;
+	width: 100%;
+}
+.peachypie {
+	width: 15%;
+	display: block;
+	margin: 0 auto;
+	padding-top: 28%;
+	padding-bottom: 5%;
+}
+.bye {
+	display: block;
+	margin: 0 auto;
+	width: 85%;
+	text-align: center;
 }
