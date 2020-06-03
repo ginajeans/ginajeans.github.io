@@ -68,6 +68,14 @@ img {
 		width: 50%;
 		height: auto;
 	}
+	.bye {
+		width: 85%;
+	}
+	.poem {
+		font-size: 25px;
+		letter-spacing: 1px;
+		line-height: 35px;
+	}
 }
 
 .row {
@@ -100,5 +108,9 @@ img {
 	display: block;
 	margin: 0 auto;
 	width: 85%;
+
+	margin-top: 25%;
+}
+.byemsg {
 	text-align: center;
 }
